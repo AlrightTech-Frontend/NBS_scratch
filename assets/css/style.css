@@ -5,6 +5,7 @@
 /*############################### variables start##################### */
 :root {
   --navbar-color: #1d1128;
+  --navbar-color1: #fff;
 
   --heading-color: #ef3f34;
   --heading1-color: #fff;
@@ -63,6 +64,7 @@
   --hr-color: #667084;
 
   --before-line-color: ;
+
 
   --Footer-background-color: #174b61;
   --Footer-color1: #fff;
