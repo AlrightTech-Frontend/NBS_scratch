@@ -5,6 +5,7 @@
 /*############################### variables start##################### */
 :root {
   --navbar-color: #1d1128;
+  --navbar-color1: #fff;
 
   --heading-color: #ef3f34;
   --heading1-color: #fff;
@@ -31,10 +32,12 @@
   --background-button-color1: #fff;
   --background-button-color2: #f5f5f5;
   --background-button-color3: #1d1128;
+  --background-button-color4: #174b61;
 
   --button-border-color1: #d8d8d8;
   --button-border-color2: #ef3f34;
-  --button-border-color2: #1d1128;
+  --button-border-color3: #1d1128;
+  --button-border-color4: #174b61;
 
   /* Website Button start  */
   --button-hover-color: #ef3f34;
@@ -51,7 +54,7 @@
 
   --before-line-color: ;
 
-  --Footer-background-color: 1d1128;
+  --Footer-background-color: #1d1128;
   --Footer-color1: #fff;
 }
 
