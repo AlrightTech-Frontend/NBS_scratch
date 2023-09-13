@@ -4,17 +4,84 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>event</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/event.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
 <body>
+     <!-- this is a header -->
+     <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+             
+              <a class="navbar-brand logo d-flex" href="#">
+               <img src="./assets/images/main-logo.png" class="img-fluid" alt="...">
+              <span> <h2 class="">NBS Pakistan</h2></span>
+
+              </a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon header-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-list">
+                  <li class="nav-item mx-1">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-1">
+                    <a class="nav-link" href="About.html">About us</a>
+                  </li>
+                 
+                  <li class="nav-item mx-21">
+                    <a class="nav-link " aria-disabled="true" href="Gallery.html">Gallery</a>
+                  </li>
+
+                  <li class="nav-item mx-1">
+                    <a class="nav-link " aria-disabled="true" href="Blog.html">Blog</a>
+                  </li>
+
+                  <!-- <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">Process</a>
+                  </li> -->
+
+                  <li class="nav-item mx-1">
+                    <a class="nav-link " aria-disabled="true" href="Event.html">Event</a>
+                  </li>
+
+                  <li class="nav-item mx-1">
+                    <a class="nav-link " aria-disabled="true" href="Contact.html">Contact us</a>
+                  </li>
+
+                  <!-- <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">Partnerships</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">FAQ</a>
+                  </li> -->
+
+            
+                </ul>
+                <div class="admin rounded-pill">
+                  <a class="btn  " href="#">
+                    <!-- <span><i class="fa-regular fa-user  user"></i></span> -->
+                    <span>Admin Login</span>
+                  </a>
+                  
+                </div>
+               
+              </div>
+            </div>
+          </nav>
+    </div>
     <div class="container  mt-3">
         <div class="row">
             <div class=" col-12 d-flex align-items-center px-lg-5">
@@ -188,15 +255,6 @@
 
         </div>
 
-
-
-
-        
-
-
-
-
-
     </div>
   
     <!-- ###########event3############ -->
@@ -261,19 +319,83 @@
             </div>
 
         </div>
+ </div>
 
-
-
-
-        
-
-
-
-
-
+ <!--###########footer start########### -->
+ <footer class="footer-background">
+    <div class="container-fluid">
+        <div class="row p-md-5 py-5  footer-cols d-flex text-sm-start text-center">
+            <div class="col-lg-3 col-sm-6 justify-content-sm-center">
+                <div class="footer-nbs">
+                    <h2>NBS PAKISTAN</h2>
+                    <div>&nbsp;</div>
+                </div>
+                <div class="footer-member">
+                    <p>Membership software by
+                        <a href="">ReadyMembership</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-contact">
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Cookies Policy</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6  col-sm-12 mt-3 mt-lg-0 flex-column d-flex text-center text-lg-start">
+                <div class="foot-para">
+                    Together we can increase our impact on Transfusion Medicine.
+                    Become part of an international network of professionals sharing their passion about blood
+                    transfusion.</div>
+                <div class="row">
+                    <div class="col-md-6 foot-sec mt-3">
+                        <strong>Contact Informations</strong>
+                        <ul class="list-unstyled">
+                            <li>H 2 PROP NO S14 R 33/A QUEENS ROAD</li>
+                            
+                            <li class="mt-3">info@nbspakistan.org</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 foot-sec mt-3">
+                        <strong>Mobile</strong>
+                        <ul class="list-unstyled">
+                            <li>03318600014</li>
+                            <li>03128143866</li>
+                            <li>03059873005</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--#### footer-icons start#### -->
+                <div class="mt-5">
+                    <ul
+                        class="list-unstyled d-flex footer-icon d-flex justify-content-lg-start justify-content-center">
+                        <li class="mx-sm-3 mx-2"><a href="" class="zoom-icon"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                    class="fa-brands fa-twitter"></i></a></li>
+                        <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                    class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                    class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <!--#### footer-icons end#### -->
+                <div class="footer-copyright">
+                    <p>© 2023 </p>
+                </div>
+            </div>
+        </div>
     </div>
-
-
+</footer>
+<!--###########footer end############# -->
     
 
 </body>

@@ -111,7 +111,7 @@ body {
   margin-top: 10px;
   width: 170px;
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
   border: 2px solid var(--border-color1);
   color: var(--button-color4);
@@ -185,7 +185,7 @@ body {
 .websitebutton {
   border: 2px solid var(--border-color1);
   color: var(--button-color1);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
   padding-left: 30px !important;
   padding-right: 30px !important;

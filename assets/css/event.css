@@ -70,7 +70,7 @@ font-style: bold;
 }
 .event-bt a{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--border-color1);
 }
 .event-bt:hover{
@@ -116,7 +116,7 @@ font-style: bold;
 }
 .event-detail-bt a{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--border-color1);
 }
 .event-detail-bt:hover{
