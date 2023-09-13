@@ -9,6 +9,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!--########### css links######### -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/testimonial.css">
     <link rel="stylesheet" href="./assets/css/event.css">
@@ -19,6 +20,75 @@
 </head>
 
 <body>
+    <!-- this is a header -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+
+                <a class="navbar-brand logo d-flex" href="#">
+                    <img src="./assets/images/main-logo.png" class="img-fluid" alt="...">
+                    <span>
+                        <h2 class="">NBS Pakistan</h2>
+                    </span>
+
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon header-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-list">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="About.html">About us</a>
+                        </li>
+
+                        <li class="nav-item mx-21">
+                            <a class="nav-link " aria-disabled="true" href="Gallery.html">Gallery</a>
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link " aria-disabled="true" href="Blog.html">Blog</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">Process</a>
+                  </li> -->
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link " aria-disabled="true" href="Event.html">Event</a>
+                        </li>
+
+                        <li class="nav-item mx-1">
+                            <a class="nav-link " aria-disabled="true" href="Contact.html">Contact us</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">Partnerships</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">FAQ</a>
+                  </li> -->
+
+
+                    </ul>
+                    <div class="admin rounded-pill">
+                        <a class="btn  " href="#">
+                            <!-- <span><i class="fa-regular fa-user  user"></i></span> -->
+                            <span>Admin Login</span>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
     <!-- ################# Slider Starts Here#######################--->
     <div class="slider-detail">
         <div id="carouselExample" class="carousel slide">
@@ -37,8 +107,8 @@
 
                         <div class="vbh">
 
-                            <div class="btn slide-button"> Donate Now </div>
-                            <div class="btn  slide-button"> Contact US </div>
+                            <div class="btn slide-button p-2"> Donate Now </div>
+                            <div class="btn  slide-button p-2"> Contact US </div>
                         </div>
                     </div>
                 </div>
@@ -50,8 +120,8 @@
                             tomorrow</p>
 
                         <div class="vbh">
-                            <div class="btn slide-button"> Donate Now </div>
-                            <div class="btn slide-button"> Contact US </div>
+                            <div class="btn slide-button p-2"> Donate Now </div>
+                            <div class="btn slide-button p-2"> Contact US </div>
                         </div>
                     </div>
                 </div>
@@ -87,67 +157,67 @@
     <!-- Every two seconds ends... -->
 
     <!-- ###########>Gallary Start<############  -->
-                <div class="container mt-5">
-                    <h1 class="text-center ma">Blood Donation Gallery</h1>
-                    <div class="blood-donation-gallery">
-                      <div class="row mt-5 mb-5">
-                        <div class="col-4">
-                          <div class="blood-donation-item">
-                            <img src="./assets/images/gallary1.jpg" alt="Blood Donor 1">
-                            <div class="caption">John Doe - A Hero</div>
-                        </div>
-                        <div class="blood-donation-item">
-                            <img src="./assets/images/gallary2.jpg" alt="Blood Donor 2">
-                            <div class="caption">Jane Smith - Saving Lives</div>
-                        </div>
-                        <div class="blood-donation-item">
-                          <img src="./assets/images/gallary3.jpg" alt="Blood Donor 2">
-                          <div class="caption">Jane Smith - Saving Lives</div>
-                      </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="blood-donation-item">
-                            <img src="./assets/images/gallary4.jpg" alt="Blood Donor 2">
-                            <div class="caption">Jane Smith - Saving Lives</div>
-                        </div>
-                        <div class="blood-donation-item">
-                          <img src="./assets/images/gallary5.jpg" alt="Blood Donor 2">
-                          <div class="caption">Jane Smith - Saving Lives</div>
-                      </div>
-                      <div class="blood-donation-item">
+    <div class="container mt-5">
+        <h1 class="text-center ma">Blood Donation Gallery</h1>
+        <div class="blood-donation-gallery">
+            <div class="row mt-5 mb-5">
+                <div class="col-4">
+                    <div class="blood-donation-item">
+                        <img src="./assets/images/gallary1.jpg" alt="Blood Donor 1">
+                        <div class="caption">John Doe - A Hero</div>
+                    </div>
+                    <div class="blood-donation-item">
+                        <img src="./assets/images/gallary2.jpg" alt="Blood Donor 2">
+                        <div class="caption">Jane Smith - Saving Lives</div>
+                    </div>
+                    <div class="blood-donation-item">
+                        <img src="./assets/images/gallary3.jpg" alt="Blood Donor 2">
+                        <div class="caption">Jane Smith - Saving Lives</div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blood-donation-item">
+                        <img src="./assets/images/gallary4.jpg" alt="Blood Donor 2">
+                        <div class="caption">Jane Smith - Saving Lives</div>
+                    </div>
+                    <div class="blood-donation-item">
+                        <img src="./assets/images/gallary5.jpg" alt="Blood Donor 2">
+                        <div class="caption">Jane Smith - Saving Lives</div>
+                    </div>
+                    <div class="blood-donation-item">
                         <img src="./assets/images/gallary6.jpg" alt="Blood Donor 2">
                         <div class="caption">Jane Smith - Saving Lives</div>
                     </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="blood-donation-item">
-                            <img src="./assets/images/gallary7.jpg" alt="Blood Donor 2">
-                            <div class="caption">Jane Smith - Saving Lives</div>
-                        </div>
-                        <div class="blood-donation-item">
-                          <img src="./assets/images/gallary8.jpg" alt="Blood Donor 2">
-                          <div class="caption">Jane Smith - Saving Lives</div>
-                      </div>
-                      <div class="blood-donation-item">
+                </div>
+                <div class="col-4">
+                    <div class="blood-donation-item">
+                        <img src="./assets/images/gallary7.jpg" alt="Blood Donor 2">
+                        <div class="caption">Jane Smith - Saving Lives</div>
+                    </div>
+                    <div class="blood-donation-item">
+                        <img src="./assets/images/gallary8.jpg" alt="Blood Donor 2">
+                        <div class="caption">Jane Smith - Saving Lives</div>
+                    </div>
+                    <div class="blood-donation-item">
                         <img src="./assets/images/gallary12.jpg" alt="Blood Donor 2">
                         <div class="caption">Jane Smith - Saving Lives</div>
                     </div>
-                        </div>
-                      </div>
-                       
-                   
-                        <!-- Add more items here -->
-                    </div>
-
-            <div class="vbh text-center pt-3">
-
-                <a href="./Gallary.html">
-                    <button class="btn websitebutton  btn-lg"> Show More <i class="fas fa-chevron-right"></i>
-                    </button>
-
-                </a>
+                </div>
             </div>
+
+
+            <!-- Add more items here -->
         </div>
+
+        <div class="vbh text-center pt-3">
+
+            <a href="./Gallary.html">
+                <button class="btn websitebutton  btn-lg"> Show More <i class="fas fa-chevron-right"></i>
+                </button>
+
+            </a>
+        </div>
+    </div>
 
     </div>
     <!-- ###########>Gallary end<############  -->
@@ -475,20 +545,16 @@
         </div>
     </div>
     <!-- #################faq end #####################-->
-    
+
     <!--#################### events start##################-->
-    <div class="container">
+    <div class="container mt-4">
         <div class="text-center">
             <p class="book-seat my-2">BOOK YOUR SEAT</p>
             <h2 class="Upcoming-event mb-5"> Upcoming Events</h2>
         </div>
     </div>
     <!-- ###########event1############ -->
-    <div class="container events mt-3">
-        <!-- <div class="text-center">
-            <p class="book-seat my-2">BOOK YOUR SEAT</p>
-            <h2 class="Upcoming-event mb-5"> Upcoming Events</h2>
-        </div> -->
+    <div class="container events mt-3 mb-5">
         <div class="event-date text-center px-4 py-1  d-lg-block d-none">
             <h5>07</h5>
             <h6>MAR</h6>
@@ -498,20 +564,20 @@
         <div class="row schedule border py-md-5 px-md-5 px-2 py-2">
             <div class="col-lg-5 event-calender">
                 <div class="d-md-flex justify-content-between    d-lg-none d-block">
-                <div class="event-datee text-center px-4 py-1 mt-md-0 mt-2 mb--0 mb-2 ">
-                    <h5>07</h5>
-                    <h6>MAR</h6>
-                    <P>2022</P>
+                    <div class="event-datee text-center px-4 py-1 mt-md-0 mt-2 mb--0 mb-2 ">
+                        <h5>07</h5>
+                        <h6>MAR</h6>
+                        <P>2022</P>
+                    </div>
+                    <div class=" px-lg-5 ">
+
+                        <p class="event-time">12:00 am - 5:00 pm</p>
+                        <h3 class="event-day    mt-md-0 mt-2 mb-md-0 mb-3">Blood Donation for Independence Day</h3>
+                    </div>
                 </div>
-                <div class=" px-lg-5 ">
-                   
-                    <p class="event-time">12:00 am - 5:00 pm</p>
-                    <h3 class="event-day    mt-md-0 mt-2 mb-md-0 mb-3">Blood Donation for Independence Day</h3>
-                </div>
-                </div>
-        
+
                 <div class=" px-lg-5  d-lg-block d-none ">
-                   
+
                     <p class="event-time">12:00 am - 5:00 pm</p>
                     <h3 class="event-day">Blood Donation for Independence Day</h3>
                 </div>
@@ -537,10 +603,84 @@
             </div>
         </div>
     </div>
-   
-    <!--#################### events end##################-->
 
-  
+    <!--#################### events end##################-->
+    <!--###########footer start########### -->
+    <footer class="footer-background">
+        <div class="container-fluid">
+            <div class="row p-md-5 py-5  footer-cols d-flex text-sm-start text-center">
+                <div class="col-lg-3 col-sm-6 justify-content-sm-center">
+                    <div class="footer-nbs">
+                        <h2>NBS PAKISTAN</h2>
+                        <div>&nbsp;</div>
+                    </div>
+                    <div class="footer-member">
+                        <p>Membership software by
+                            <a href="">ReadyMembership</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="footer-contact">
+                        <ul class="list-unstyled">
+                            <li><a href="contact.html">Contact us</a></li>
+                            <li><a href="process.html">Process</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="">Terms and Conditions</a></li>
+                            <li><a href="">Cookies Policy</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-sm-12 mt-3 mt-lg-0 flex-column d-flex text-center text-lg-start">
+                    <div class="foot-para">
+                        Together we can increase our impact on Transfusion Medicine.
+                        Become part of an international network of professionals sharing their passion about blood
+                        transfusion.</div>
+                    <div class="row">
+                        <div class="col-md-6 foot-sec mt-3">
+                            <strong>Contact Informations</strong>
+                            <ul class="list-unstyled">
+                                <li>H 2 PROP NO S14 R 33/A QUEENS ROAD</li>
+                                
+                                <li class="mt-3">info@nbspakistan.org</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 foot-sec mt-3">
+                            <strong>Mobile</strong>
+                            <ul class="list-unstyled">
+                                <li>03318600014</li>
+                                <li>03128143866</li>
+                                <li>03059873005</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--#### footer-icons start#### -->
+                    <div class="mt-5">
+                        <ul
+                            class="list-unstyled d-flex footer-icon d-flex justify-content-lg-start justify-content-center">
+                            <li class="mx-sm-3 mx-2"><a href="" class="zoom-icon"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                        class="fa-brands fa-twitter"></i></a></li>
+                            <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="mx-sm-4 mx-3"><a href="" class="zoom-icon"><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <!--#### footer-icons end#### -->
+                    <div class="footer-copyright">
+                        <p>© 2023 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--###########footer end############# -->
+
 
     <!-- Testimonial  -->
 
