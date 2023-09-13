@@ -5,7 +5,13 @@ body{
     font-family: Gothic+A1;
 }
 /*#####################> Process  Start <############ */
-
+.objetive-icon{
+  color:#ff8a54;
+  /* margin:20px; */
+  vertical-align: middle;
+  align-items: center;
+  font-size:60px;
+}
 .how-work {
     padding: 40px 0;
   }
