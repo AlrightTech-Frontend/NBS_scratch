@@ -72,6 +72,7 @@ font-style: bold;
     font-size: 18px;
     font-weight: 700;
     color: var(--border-color1);
+    border: none;
 }
 .event-bt:hover{
     background-color: var(--background-button-color4);
@@ -118,6 +119,7 @@ font-style: bold;
     font-size: 18px;
     font-weight: 700;
     color: var(--border-color1);
+    border: none;
 }
 .event-detail-bt:hover{
     background-color: var(--background-button-color4);

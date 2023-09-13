@@ -30,7 +30,7 @@ width: 100px;
 }
 .admin {
     border: 2px solid var(--border-color1);
-    border-radius: 30%;
+  
     padding:1px; 
 }
 .admin:hover{
@@ -42,6 +42,8 @@ border-color: var(--button-border-color4);
     font-size: 18px;
     font-weight: 700;
     color: var(--border-color1);
+    border: none;
+    border-radius: 30%;
 }
 .user{
     font-size: 20px;
