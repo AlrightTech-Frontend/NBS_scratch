@@ -80,6 +80,16 @@ body {
   object-fit: cover;
   background-repeat: no-repeat;
   height: 80vh;
+  position: relative;
+}
+.slider-detail img::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
 }
 .slider-detail .slide-p {
   text-align: left;
@@ -105,7 +115,7 @@ body {
   text-align: center;
 }
 
-.slider-detail .vbh .slide-button {
+.vbh .slide-button {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 10px;
@@ -116,8 +126,12 @@ body {
   border: 2px solid var(--border-color1);
   color: var(--button-color4);
   border-radius: 50px;
+} 
+.vbh a{
+  text-decoration: none;
+
 }
-.slider-detail .vbh .slide-button:hover {
+.vbh .slide-button:hover {
   background-color: var(--hover-color2);
   border: var(--border-color1);
   color: var(--button-color);
@@ -155,6 +169,11 @@ body {
   .slide-p{
     left: 20%;
   }
+  .slider-detail .vbh .slide-button {
+  
+    width: 100%;
+   
+  }
 }
 @media screen and (max-width: 500px) {
   
@@ -189,6 +208,9 @@ body {
   /* transition: 0.3s; */
 }
 /* <!-- Every two seconds starts... --> */
+.save-life{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
 .second-increase h1{
   font-weight: 700;
   font-size: 5rem;
@@ -317,6 +339,20 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.donatebutton{
+  border: 2px solid var(--border-color1);
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  border-radius: 50px;
+}
+.donatebutton:hover {
+  background-color: var(--hover-color2);
+  color: var(--button-color);
+  /* transition: 0.3s; */
+}
 /* ##########background section end##########*/
 
 /* <!-- ####################global-network start############ --> */
@@ -394,36 +430,4 @@ body {
     font-size: 16px;
   }
 }
-/* <!--#################### events start##################--> */
-/* .event-start {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-.event-sec {
-  position: relative;
-}
-.event-sec h4{
-  
-}
-.event-calender {
-  position: absolute;
-  left: -100px;
-  background-color: var(--background-color2);
-  color: var(--paragraph-color2);
-  width: 100px;
-}
-.event-time p{
-  color: var(--paragraph-color1);
-  font-size: 18px;
-  font-weight: 500;
-}
-.event-time h4{
-  color: var(--heading6-color);
-  font-weight: 500;
-}
-.event-street p{
-  color-scheme: var(--paragraph-color1);
-  font-size: 16px;
-  font-weight: 500; */
-}
-/* <!--#################### events end##################--> */
+

@@ -4,14 +4,6 @@
 body{
     font-family: Gothic+A1;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
 .sectiona {
     display: flex;
     justify-content: center;
