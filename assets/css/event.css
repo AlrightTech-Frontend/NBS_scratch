@@ -1,6 +1,7 @@
 body{
     font-family: Gothic+A1;
 }
+
 .home-icon{
     color: var(--icon-color1);
 }
@@ -65,7 +66,7 @@ font-style: bold;
     border: 2px solid var(--border-color1);
     border-radius: 30%;
     padding:3px;
-    width: fit-content;
+   
     
 }
 .event-bt a{
@@ -146,6 +147,17 @@ font-style: bold;
 .event-calender{
     position: relative;
 } 
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: var(--background-color2) !important;
+    border-color: var(--border-color6) !important;
+  }
+  
+  .page-item .page-link:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
 @media screen and (max-width:1040px){
    
 /* .event-date{

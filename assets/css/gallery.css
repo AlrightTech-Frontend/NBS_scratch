@@ -1,6 +1,17 @@
 .home-icon{
     color: var(--icon-color1);
 }
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: var(--background-color2) !important;
+    border-color: var(--border-color6) !important;
+  }
+  
+  .page-item .page-link:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
 .path{
     font-size:18px;
 }

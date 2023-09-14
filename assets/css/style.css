@@ -74,6 +74,10 @@
 body {
   font-family: Gothic + A1;
 }
+   /* path */
+   .path{
+    color: var(--navbar-color);
+   }
 /* ===================================== Slider CSS start ================================== */
 .slider-detail img {
   background-size: cover;
