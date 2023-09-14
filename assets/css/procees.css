@@ -5,6 +5,9 @@ body{
     font-family: Gothic+A1;
 }
 /*#####################> Process  Start <############ */
+.processheading{
+  color: var(--paragraph-color3);
+}
 .objetive-icon{
   color:#ff8a54;
   /* margin:20px; */
