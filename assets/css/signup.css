@@ -1,59 +1,64 @@
 body {
-    font-family: Gothic + A1;
-  }
-  .formcard{
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  }
-  .signin a{
-    color: var(--navbar-color);
-    font-weight: 600;
-  }
-  .signin a:hover{
-    color: var(--hover-color);
-  }
-  .signin-bt{
-    background-color: var( --background-button-color);
-  }
-  .i-button{
- border: 1px solid var(--button-border-color4);
- background-color: var(--background-button-color2);
- border-left: 0;
-  }
-  .i-button:hover{
-  background-color:var(--background-button-color2) !important;
-  }
+  font-family: Gothic + A1;
+}
+.formcard{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 20px;
+}
+.c-head{
+  background-color: transparent !important;
+}
+.signin a{
+  color: var(--navbar-color);
+  font-weight: 600;
+}
+.signin a:hover{
+  color: var(--hover-color);
+}
+.signin-bt{
+  background-color: var( --background-button-color);
+}
+.i-button{
+border: 1px solid var(--button-border-color4);
+background-color: var(--background-button-color2);
+border-left: 0;
+}
+.i-button:hover{
+background-color:var(--background-button-color2) !important;
+}
 .eye-icon:hover{
 color: black;
 }
- 
-  .ffform{
-    border: 1px solid var(--button-border-color4);
-  }
-  .fform{
-    border-right:none !important;
-    border: 1px solid var(--button-border-color4);
-  }
-  .form-control{
-    background-color: var(--background-button-color2);
-  }
-  .form-control:focus{
-    /* border-color: none !important; */
-    box-shadow: none !important;
-
-  }
-  .form-check-input:focus{
-    border-color: none !important;
-    box-shadow: none !important;
-  }
-  .forgot{
-    color: var(--navbar-color);
-  }
-  .forgot:hover{
-    color: var(--hover-color)
-  }
-  .c-account{
-    color: var(--navbar-color);
-  }
-  .c-account:hover{
-    color: var(--hover-color)
-  }
+.ffform{
+  border: 1px solid var(--button-border-color4);
+}
+.fform{
+  border-right:none !important;
+  border: 1px solid var(--button-border-color4);
+}
+.form-control{
+  background-color: var(--background-button-color2);
+}
+.form-control:focus{
+  /* border-color: none !important; */
+  box-shadow: none !important;
+  border: 1px solid var(--button-border-color4);
+  background-color: var(--background-button-color2);
+}
+.form-check-input:focus{
+  border-color: none !important;
+  box-shadow: none !important;
+}
+.forgot{
+  color: var(--navbar-color);
+  font-weight: 500;
+}
+.forgot:hover{
+  color: var(--hover-color)
+}
+.c-account{
+  color: var(--navbar-color);
+}
+.c-account:hover{
+  color: var(--hover-color)
+}
