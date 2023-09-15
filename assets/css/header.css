@@ -9,6 +9,7 @@ body{
     z-index: 1000; /* Adjust the z-index as needed */
     /* Add any other styling you want for the sticky header */
     background-color: #fff; /* Adjust as needed */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 /* this is header */
@@ -36,7 +37,19 @@ width: 100px;
     color: var( --button-hover-color);
     /* font-weight:600 !important; */
     transform: scale(1.1);
+    transition: 0.3s;
   
+}
+.mainnavbar{
+    z-index: 10000 !important;
+   
+}
+@media screen and (max-width:991px){
+    .nav-list li a:hover{
+        color: var( --button-hover-color);
+        transform: none !important;
+    }
+
 }
 .admin {
     border: 2px solid var(--border-color1);
