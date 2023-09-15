@@ -85,6 +85,7 @@ body {
   background-repeat: no-repeat;
   height: 80vh;
   position: relative;
+  
 }
 .slider-detail img::before {
   content: ""; /* Required for pseudo-elements */
@@ -93,7 +94,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+  background-color: rgba(0, 0, 0, 0.5); 
+  /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+  z-index: 1 !important;
 }
 .slider-detail .slide-p {
   text-align: left;
@@ -127,17 +130,18 @@ body {
   margin-left: 10px;
   font-weight: 700;
   font-size: 18px;
-  border: 2px solid var(--border-color1);
-  color: var(--button-color4);
+  border: 2px solid var(--background-button-color4);
+  background-color: var(--background-button-color4);
+  color: var(--button-color);
   border-radius: 50px;
 } 
 .vbh a{
   text-decoration: none;
 
 }
-.vbh .slide-button:hover {
-  background-color: var(--hover-color2);
-  border: var(--border-color1);
+.vbh .slide-button:active {
+  background-color: var(--background-button-color4);
+  border: var(--background-button-color4);
   color: var(--button-color);
 }
 .slider-detail .vdg-cur {
