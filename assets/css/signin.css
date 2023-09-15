@@ -1,19 +1,21 @@
 body {
     font-family: Gothic + A1;
+    margin: 0;
+    padding: 0;
   }
   .formcard{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 20px;
+    border-radius: 15px;
   }
   .c-head{
     background-color: transparent !important;
   }
   .signin a{
     color: var(--navbar-color);
-    font-weight: 600;
+    font-weight: 700;
   }
   .signin a:hover{
-    color: var(--hover-color);
+    color: var(--hover-color2);
   }
   .signin-bt{
     background-color: var( --background-button-color);
@@ -49,16 +51,31 @@ color: black;
     border-color: none !important;
     box-shadow: none !important;
   }
+  .login{
+    border: 2px solid var(--background-button-color4);
+    color: var(--button-color);
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 50px;
+    background-color: var(--background-button-color4);
+  }
+  .login:hover {
+    background-color: var(--hover-color2);
+    color: var(--button-color);
+    /* transition: 0.3s; */
+  }
   .forgot{
     color: var(--navbar-color);
     font-weight: 500;
   }
   .forgot:hover{
-    color: var(--hover-color)
+    color: var(--hover-color2)
   }
   .c-account{
     color: var(--navbar-color);
   }
   .c-account:hover{
-    color: var(--hover-color)
+    color: var(--hover-color2)
   }
