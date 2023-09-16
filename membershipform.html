@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--########### css links######### -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/testimonial.css">
+    <link rel="stylesheet" href="./assets/css/event.css">
+    <link rel="stylesheet" href="./assets/css/membershipform.css">
+    
+   
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <!--############# font awesome cdn #############-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            /* Add your custom styles here */
+            /* For example, you can style the form container */
+            .form-container {
+                padding: 20px;
+            }
+        </style>
+</head>
+
+
+    <body>
+        <div class="container-fluid form-container">
+          
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h1 class="mb-4">NBS Membership Form</h1>
+  <!-- Personal Information -->
+            <!-- row1 -->
+            <div class="row">
+                <label for="name" class="form-label"> <b>Name*</b></label>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <!-- <label for="name" class="form-label">First Name</label> -->
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <!-- <label for="email" class="form-label">Last Name</label> -->
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Father Name"
+                            required>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><b>CNIC</b></label>
+                        <input type="" class="form-control" id="name" name="name" placeholder="" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="dob" class="form-label"> <b>Date of Birth</b></label>
+                        <input type="date" class="form-control" id="dob" name="dob" required>
+                    </div>
+
+                </div>
+            </div>
+             <!-- row4 -->
+             <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><b>Email</b></label>
+                        <input type="email" class="form-control" id="name" name="name" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="email" class="form-label"><b>Phone</b></label>
+                        <input type="phone" class="form-control" id="email" name="email" placeholder="Phone" required>
+                    </div>
+                </div>
+
+            </div>
+            <!-- row2 -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="phone" class="form-label"><b>Adress</b></label>
+                        <input type="text" class="form-control" id="phone" name="phone" required>
+                    </div>
+                </div>
+            </div>
+            <!-- row3 -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <!-- <label for="name" class="form-label">First Name</label> -->
+                        <input type="text" class="form-control" id="name" name="name" placeholder="City" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <!-- <label for="email" class="form-label">Last Name</label> -->
+                        <input type="number" class="form-control" id="email" name="email" placeholder="Zip Code"
+                            required>
+                    </div>
+                </div>
+
+            </div>
+           
+            <!-- row5 -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex items-center justify-center min-h-screen">
+                        <div class="mb-4 p-4 text-sm w-80">
+                          <div class="font-bold mb-2">Alpine Upload Image Preview</div>
+                          <div class="" x-data="previewImage()">
+                      
+                            <label for="logo">
+                              <div class="w-full h-48 rounded bg-gray-100 border border-gray-200 flex items-center justify-center overflow-hidden">
+                      
+                                <img x-show="imageUrl" :src="imageUrl" class="w-full object-cover">
+                                <div x-show="!imageUrl" class="text-gray-300 flex flex-col items-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                  </svg>
+                                  <div>Image Preview</div>
+                                </div>
+                      
+                              </div>
+                            </label>
+                      
+                            <div>
+                              <label for="logo" class="block mb-2 mt-4 font-bold">Upload image..</label>
+                              <input class="w-full cursor-pointer" type="file" name="logo" id="logo" @change="fileChosen">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                </div>
+
+                
+
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn w-100 rounded-pill m-submit">Submit</button>
+            </div>
+
+            <!-- </form> -->
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+          
+        </div>
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<!--     
+              <script>
+                function previewImage() {
+                    return {
+                        imageUrl: "",
+                
+                        fileChosen(event) {
+                            this.fileToDataUrl(event, (src) => (this.imageUrl = src));
+                        },
+                
+                        fileToDataUrl(event, callback) {
+                            if (!event.target.files.length) return;
+                
+                            let file = event.target.files[0],
+                                reader = new FileReader();
+                
+                            reader.readAsDataURL(file);
+                            reader.onload = (e) => callback(e.target.result);
+                        },
+                    };
+                }
+                </script> -->
+      
+
+<!-- <script>
+new Vue({
+    el: '#your-form-element', // Replace with the ID or class of your form
+    data() {
+        return {
+            imageUrl: "",
+        };
+    },
+    methods: {
+        fileChosen(event) {
+            this.fileToDataUrl(event, (src) => (this.imageUrl = src));
+        },
+        fileToDataUrl(event, callback) {
+            if (!event.target.files.length) return;
+            let file = event.target.files[0],
+                reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = (e) => callback(e.target.result);
+        },
+    },
+});
+</script> -->
+
+</body>
+
+</html>
