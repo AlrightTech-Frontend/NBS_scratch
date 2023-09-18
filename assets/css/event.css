@@ -77,7 +77,7 @@ font-style: bold;
 }
 .event-bt:hover{
     background-color: var(--background-button-color4);
-    color: var(--button-color);
+    color: var( --button-border-color1);
     border-color: var(--button-border-color4);
     }
 .donate-img{
