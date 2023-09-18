@@ -1,6 +1,13 @@
 body {
   font-family: Gothic + A1;
 }
+.form-container {
+  padding: 20px;
+}
+.membership-head{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 15px;;
+}
 .membership-head h1{
   color: var(--heading5-color);
   font-size: 2rem;
