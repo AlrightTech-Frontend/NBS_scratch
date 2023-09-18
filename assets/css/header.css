@@ -55,6 +55,7 @@ width: 100px;
 .admin {
     border: 2px solid var(--border-color1);
      width: fit-content;
+     
     padding:1px; 
 }
 .admin:hover{
