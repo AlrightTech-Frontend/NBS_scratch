@@ -148,10 +148,17 @@ body {
   color: var(--button-color);
 }
 .slider-detail .vdg-cur {
-  color: #fff;
+  color: var(--button-color);
   padding-top: 70px;
 }
 
+.slide-icon {
+  color: var(--icon-color2);
+  height: 35px;
+  width: 100px;
+  font-weight: 800;
+  background-size: 100%, 100%;
+}
 @media screen and (max-width: 1180px) {
   .slider-detail .carousel-caption {
     bottom: 30px;
@@ -198,6 +205,12 @@ body {
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 425px) {
+  .slider-detail .carousel-caption {
+    bottom: 50px;
+  }
+}
+
 /* ===================================== Slider CSS end ================================== */
 .masterheading {
   position: relative;
