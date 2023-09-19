@@ -195,7 +195,7 @@ body{
 .containera .contactForm .formBox .inputBox input[type="submit"] {
     position: relative;
     cursor: pointer;
-    background: #de1f26;
+    background: var(  --background-color2);
     border-radius: 20px;
     color: #fff;
     border: none;
@@ -205,22 +205,22 @@ body{
 }
 
 .containera .contactForm .formBox .inputBox input[type="submit"]:hover {
-    background: #de1f26;
+    background: var(  --background-color2);
 }
 
 .map {
     /* width: 30rem; */
 }
 .sendBtn{
-    background-color: var( --button-hover-color2);
+    background-color: var(  --background-color2);
 
-    color: white;
+    color: var(--button-color);
 }
 
 .sendBtn:hover {
-    background-color:  var(- --button-hover-color2);
+    background-color:  var(--hover-color2);
    
-    color: white
+    color:var(--button-color) ;
 }
 
 /* make the form responsive */
