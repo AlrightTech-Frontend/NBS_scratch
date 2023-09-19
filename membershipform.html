@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/css/testimonial.css">
     <link rel="stylesheet" href="./assets/css/event.css">
     <link rel="stylesheet" href="./assets/css/membershipform.css">
- 
+
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <!--############# font awesome cdn #############-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -94,7 +94,7 @@
                         <!-- <button type="button" class="btn  px-3">View Details</button> -->
 
                     </div>
-                    <div class="admin rounded-pill text-center px-2 ">
+                    <div class="admin rounded-pill text-center px-2 mt-lg-0 mt-2">
                         <a class="btn" href="./signin.html">
 
                             <span>Login</span>
@@ -112,10 +112,14 @@
     <div class="container  mt-3">
         <div class="row">
             <div class=" col-12 d-flex align-items-center px-lg-5">
-                <a href=""><i class="fa-solid fa-house home-icon"></i></a>
+                <a href="index.html"><i class="fa-solid fa-house home-icon"></i></a>
+                <i class="fa-solid fa-angle-right mx-3   next-icon"></i>
+                <a href="membership.html" class=" path  text-decoration-none">
+                    <p class="mt-2 ">Membership</p>
+                </a>
                 <i class="fa-solid fa-angle-right mx-3   next-icon"></i>
                 <a href="" class=" path  text-decoration-none">
-                    <p class="mt-2 ">Membership</p>
+                    <p class="mt-2 ">Membership-form</p>
                 </a>
 
             </div>
@@ -133,9 +137,9 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-4">
-                            <label for="name" class="form-label"><b>Name</b></label>
+                            <label for="name" class="form-label"><b>First Name</b></label>
                             <input type="text" class="form-control membership-form py-2" id="name" name="name"
-                                placeholder="Name" required>
+                                placeholder="First Name" required>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -152,7 +156,7 @@
                         <div class="mb-4">
                             <label for="name" class="form-label"><b>CNIC</b></label>
                             <input type="" class="form-control membership-form py-2" id="name" name="name"
-                                placeholder="" required>
+                                placeholder="CNIC" required>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -185,9 +189,9 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="mb-4">
-                            <label for="phone" class="form-label"><b>Adress</b></label>
-                            <input type="text" class="form-control membership-form py-2" id="phone" name="phone"
-                                required>
+                            <label for="exampleFormControlTextarea1" class="form-label"><b>Address</b></label>
+                            <textarea class="form-control membership-form" id="exampleFormControlTextarea1" rows="2"
+                                required placeholder="Address"></textarea>
                         </div>
                     </div>
                 </div>
@@ -195,14 +199,14 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-4">
-                            <!-- <label for="name" class="form-label">First Name</label> -->
+                            <label for="name" class="form-label"><b>City</b></label>
                             <input type="text" class="form-control membership-form py-2" id="name" name="name"
                                 placeholder="City" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-4">
-                            <!-- <label for="email" class="form-label">Last Name</label> -->
+                            <label for="email" class="form-label"><b>Zip Code</b></label>
                             <input type="number" class="form-control membership-form py-2" id="email" name="email"
                                 placeholder="Zip Code" required>
                         </div>
@@ -210,16 +214,18 @@
 
                 </div>
 
+                <!-- row5 -->
+                <div class="mb-4">
+                    <label for="formFileLg" class="form-label"><b>Choose file</b></label>
+                    <input class="form-control form-control-lg membership-form" id="formFileLg" type="file">
+                </div>
+
                 <div class="mb-4">
                     <label for="exampleFormControlTextarea1" class="form-label"><b>Comments</b></label>
                     <textarea class="form-control membership-form" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
-                <!-- row5 -->
-                <div  class="mb-4">
-                    <label for="formFileLg" class="form-label"><b>Choose file</b></label>
-                    <input class="form-control form-control-lg membership-form" id="formFileLg" type="file">
-                </div>
+
                 <!-- Submit Button -->
                 <div class="d-flex justify-content-center pb-5">
                     <button type="submit" class="btn rounded-pill m-submit text-center">Submit</button>
