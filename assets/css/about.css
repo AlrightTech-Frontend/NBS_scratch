@@ -60,6 +60,12 @@ body {
   color: var(--paragraph-color4);
   font-size: 18px;
 }
+.about-strategy h5{
+  font-weight: 700;
+}
+.about-strategy h6{
+  color: var( --heading6-color);
+}
 .about-services p{
     font-weight: 400;
     color: var(--paragraph-color4);
